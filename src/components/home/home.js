@@ -4,11 +4,9 @@ import Banner from "../banner/banner";
 
 const Home = () => {
   return (
-    <Container maxWidth="xl" sx={{ bgcolor: "#222" }}>
-      <Container maxWidth="xl">
-        <Banner />
-      </Container>
-    </Container>
+    // <Container maxWidth="xl" sx={{ bgcolor: "#222" }}>
+    <Banner />
+    // </Container>
   );
 };
 
